@@ -1,0 +1,172 @@
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #2E2F42;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.header {}
+
+.nav {}
+
+.logo-decoration {
+    color: #4D5AE5;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 3%;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.nav-menu {}
+
+.nav-menu-item {}
+
+.nav-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-menu-link:hover {
+    color: #404BBF;
+}
+
+.address {
+    font-style: normal;
+}
+
+.nav-contacts {}
+
+.nav-contscts-item {}
+
+.nav-contacts-link {}
+
+.nav-contacts-link:hover {
+    color: #404BBF;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+.our-features {}
+
+.feature-title {}
+
+.feature-list {}
+
+.feature-list-item {}
+
+.feature-list-title {}
+
+.feature-list-text {}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.team-title {}
+
+.team-list {}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
+
+.team-list-img {}
+
+.team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+    text-align: center;
+
+}
+
+.team-list-text {
+    text-align: center;
+}
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfolio-list-img {}
+
+.portfolio-list-title {}
+
+.portfolio-list-text {}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 3%;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-logo-decoration {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
