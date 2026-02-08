@@ -21,10 +21,10 @@ a {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.5;
+    line-height: 1.11;
     text-align: center;
     color: #2E2F42;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 h3 {
@@ -79,7 +79,9 @@ h3 {
 
 .nav-contacts-item {}
 
-.nav-contacts-link {}
+.nav-contacts-link {
+    letter-spacing: 0.02em
+}
 
 .nav-contacts-link:hover,
 .nav-contacts-link:focus {
@@ -94,7 +96,7 @@ h3 {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 3.75;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -106,6 +108,7 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    font-weight: 400;
 }
 
 .hero-button:hover,
