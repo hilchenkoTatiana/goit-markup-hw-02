@@ -1,12 +1,10 @@
-
-
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 ul,
@@ -17,21 +15,24 @@ ol {
 a {
     text-decoration: none;
     color: currentColor;
+    letter-spacing: 0.03em;
 }
 
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 2.5;
     text-align: center;
     color: #2E2F42;
+    letter-spacing: 0.03em;
 }
 
 h3 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #2E2F42;
+    letter-spacing: 0.03em;
 }
 
 .header {}
@@ -43,11 +44,13 @@ h3 {
 }
 
 .logo {
-    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    letter-spacing: 3%;
-    line-height: 21px;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
     text-transform: uppercase;
+    color: #2E2F42;
 }
 
 .nav-menu {}
@@ -55,11 +58,16 @@ h3 {
 .nav-menu-item {}
 
 .nav-menu-link {
+    color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+
 }
 
-.nav-menu-link:hover {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
     color: #404BBF;
 }
 
@@ -69,12 +77,14 @@ h3 {
 
 .nav-contacts {}
 
-.nav-contscts-item {}
+.nav-contacts-item {}
 
 .nav-contacts-link {}
 
-.nav-contacts-link:hover {
+.nav-contacts-link:hover,
+.nav-contacts-link:focus {
     color: #404BBF;
+    letter-spacing: 0.02em;
 }
 
 .hero {
@@ -84,7 +94,8 @@ h3 {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 3.75;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -92,9 +103,13 @@ h3 {
 .hero-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -106,12 +121,17 @@ h3 {
 
 .feature-list-item {}
 
-.feature-list-title {}
+.feature-list-title {
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
 
 .feature-list-text {}
 
 .our-team {
     background-color: #F4F4FD;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .team-title {}
@@ -129,10 +149,13 @@ h3 {
     font-size: 20px;
     color: #2E2F42;
     text-align: center;
-
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-list-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -146,19 +169,32 @@ h3 {
 
 .portfolio-list-img {}
 
-.portfolio-list-title {}
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
-.portfolio-list-text {}
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
 
 .footer {
     background-color: #2E2F42;
 }
 
 .footer-logo {
-    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    letter-spacing: 3%;
-    line-height: 21px;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
     text-transform: uppercase;
     color: #F4F4FD;
 }
